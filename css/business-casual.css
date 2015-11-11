@@ -190,3 +190,12 @@ footer p {
         clear: both;
     }
 }
+
+.delasoul {
+    width:20%;
+    height:auto;
+}
+
+.pointer {
+    cursor: pointer;
+}
