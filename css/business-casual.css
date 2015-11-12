@@ -54,7 +54,7 @@ hr {
 }
 
 .img-full {
-    min-width: 100%;
+    min-width: 50%;
 }
 
 .brand-before,
@@ -198,4 +198,19 @@ footer p {
 
 .pointer {
     cursor: pointer;
+}
+
+.about_pics {
+    width:250px;
+    height:auto;
+}
+
+.resize {
+    width:400px;
+    height:auto;
+}
+
+.margins {
+    margin-left: 30px;
+    margin-right: 30px;
 }

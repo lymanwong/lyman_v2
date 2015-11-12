@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>About Me</title>
+    <title>Lyman Wong</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
 
 </head>
 <div class="brand">Lyman Wong</div>
-<div class="address-bar">1942 36th Avenue | San Francisco, CA 94116 | 415.509.1409</div>
+<div class="address-bar">1942 36th Avenue | San Francisco, CA 94116 | 415.509.1409<br/></div>
 
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
@@ -50,20 +50,55 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="index.php">Home</a>
+                    <a href="#/">Home</a>
                 </li>
                 <li>
-                    <a href="about.php">About</a>
+                    <a href="#/about">About</a>
                 </li>
                 <li>
-                    <a href="blog.php">Blog</a>
+                    <a href="#/projects">Projects</a>
                 </li>
                 <li>
-                    <a href="contact.php">Contact</a>
+                    <a href="#/blog">Blog</a>
                 </li>
+                <li>
+                    <a href="#/contact">Contact</a>
+                </li>
+<!--            <li>
+                    <a href="" class="music">Music</a>
+                </li> -->
             </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
 </nav>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <ul class="musiclist indents">
+            Pick a genre.<br />It'll take a few seconds for the Soundcloud api to load...
+            <p><a href="#" class="genre">Dubstep</a> | <a href="#" class="genre">Electronic</a> | <a href="#" class="genre">Hip Hop & Rap</a> | <a href="#" class="genre">Pop</a> | <a href="#" class="genre">Punk</a> | <a href="#" class="genre">Rock</a></p>
+        </ul>
+        <div id="player"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <ul class="musiclist indents">
+    Pick a genre.<br />It'll take a few seconds for the Soundcloud api to load...
+    <p><a href="#" class="genre">Dubstep</a> | <a href="#" class="genre">Electronic</a> | <a href="#" class="genre">Hip Hop & Rap</a> | <a href="#" class="genre">Pop</a> | <a href="#" class="genre">Punk</a> | <a href="#" class="genre">Rock</a></p>
+</ul>
+<div id="player"></div> -->

@@ -6,13 +6,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Contact Me</title>
+    <title>Lyman Wong</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/business-casual.css" rel="stylesheet">
+
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -36,8 +37,5 @@
         interval: 5000 //changes the speed
     })
     </script>
-
-    <!-- MY JS FILE -->
-    <script type="text/javascript" src="/js/script.js"></script>
 
 </head>
