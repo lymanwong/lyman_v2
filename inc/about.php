@@ -33,21 +33,21 @@
                     <hr>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="/img/niners.jpg/750x450" alt="">
+                    <img class="img-responsive" src="https://github.com/lymanwong/lyman_v2/blob/master/img/niners.jpg/750x450" alt="">
                     <h3>Marcela Benitez<br />
                         <small>Community Manager<br />
                         @CBS Interactive</small>
                     </h3>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="/img/lifting.jpg/750x450" alt="">
+                    <img class="img-responsive" src="https://github.com/lymanwong/lyman_v2/blob/master/img/lifting.jpg/750x450" alt="">
                     <h3>Lyman Wong<br />
                         <small>Full Stack Developer<br />
                         @Phlint</small>
                     </h3>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="/img/freyja_1.jpg/750x450" alt="">
+                    <img class="img-responsive" src="https://github.com/lymanwong/lyman_v2/blob/master/img/Freyja_1.jpg/750x450" alt="">
                     <h3>Freyja<br />
                         <small>Chief Fun Officer<br />
                         @everywhere</small>
