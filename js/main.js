@@ -39,6 +39,10 @@ app.config(function($routeProvider) {
       templateUrl:'inc/blog.php',
       controller: 'BlogController'
     })
+    .when('/blog2', {
+      templateUrl:'inc/blog2.php',
+      controller: 'Blog2Controller'
+    })
     .when('/contact', {
       templateUrl:'inc/contact.php',
       controller: 'ContactController'
@@ -72,21 +76,14 @@ app.controller('BlogController', function($scope){
 
 });
 
+app.controller('Blog2Controller', function($scope){
+
+});
+
 app.controller('ContactController', function($scope){
 
 });
 
 app.controller('ProjectsController', function($scope){
 
-});
-
-
-
-//Delasoul
-$(document).ready(function() {
-  $('.delasoul').hide();
-  $('.tellme').click(function(event){
-    event.preventDefault();
-    $('.delasoul').toggle('slow');
-  });
 });
