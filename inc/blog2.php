@@ -8,7 +8,7 @@
             <hr>
         </div>
         <div class="col-lg-12 text-center">
-            <img class="img-responsive img-border img-full" src="img/bueller.jpg" alt="">
+            <iframe src="//giphy.com/embed/ymkUFbGgt3loA" width="480" height="203" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
             <h2>Valuable Values
                 <br>
                 <small>09.19.2014</small>
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="col-lg-12 text-center">
-            <img class="img-responsive img-border img-full" src="img/saltnpepa.jpg" alt="">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/MBvVocNTF34" frameborder="0" allowfullscreen></iframe>
             <h2>Ridin' in my SQL-aide
                 <br/>
                 <small>09.18.2014</small>
@@ -85,7 +85,7 @@
             </div>
         </div>
         <div class="col-lg-12 text-center">
-            <img class="img-responsive img-border img-full" src="img/compass.jpg" alt="">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/VP0I-3yRTts" frameborder="0" allowfullscreen></iframe>
             <h2>Stereotype Threat
                 <br>
                 <small>09.13.2014</small>
@@ -121,7 +121,7 @@
             <ul class="pager">
                 <li class="previous"><a href="#/blog">&larr; Newer</a>
                 </li>
-                <li class="next"><a href="#/blog2">Older &rarr;</a>
+                <li class="next"><a href="#/blog3">Older &rarr;</a>
                 </li>
             </ul>
         </div>
