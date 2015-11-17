@@ -43,6 +43,10 @@ app.config(function($routeProvider) {
       templateUrl:'inc/blog2.php',
       controller: 'Blog2Controller'
     })
+    .when('/blog3', {
+      templateUrl:'inc/blog3.php',
+      controller: 'Blog2Controller'
+    })
     .when('/contact', {
       templateUrl:'inc/contact.php',
       controller: 'ContactController'
@@ -77,6 +81,10 @@ app.controller('BlogController', function($scope){
 });
 
 app.controller('Blog2Controller', function($scope){
+
+});
+
+app.controller('Blog3Controller', function($scope){
 
 });
 

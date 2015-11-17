@@ -9,36 +9,60 @@
         </div>
         <div class="col-lg-12 text-center">
             <img class="img-responsive img-border img-full" src="img/bueller.jpg" alt="">
-            <h2>Valuable Values
+            <h2>lasses versus Modules
                 <br>
-                <small>09.19.2014</small>
+                <small>09.12.2014</small>
             </h2>
             <div class="text-left margins">
-                <p><strong>Exploring one of my values</strong></p>
-                <p>For me, excellence really stands out in my mind. This idea of excellence expands throughout my life; personal and professional. As far as personal, I want to be the best husband, friend, son, brother, cousin, etc. that I can be. Professionally, I want to be constantly improving each day. There is always something out there to learn to be a better student, employee, and co-worker. Basically, I want to be the best version of me I can be each day....</p>
+                <p><strong>What is a Class?</strong></p>
+                <p>A class is a factory for objects (note the plural). If you don't want to create multiple instances of the class, there is no need for it to exist. If you would like more information about classes, click here and you'll be directed to last week's post.</p>
                 <input type="checkbox" ng-model="checked"> I wanna read more!</p>
                 <div ng-show="checked">
 
-                <p><strong>What was the last topic someone asked for my advice on?</strong><br/>The last time I was asked for advice was whether or not we should increase the fee for our fantasy football league. Since the season has started, I stated that it would be unfair for those who couldn't afford the rate increase and we should postpone the hike for the following season. The league agreed with my suggestion.</p>
+                <p><strong>What is a module?</strong><br/>
+                A module is collection of methods and constants. Modules are a way of grouping together some functions and variables and classes, somewhat like classes, but more like namespaces. A namespace is a bully-free zone where your methods and constants can play together without having other methods and constants messing with them.</p>
 
-                <p><strong>Values and stereotype threat</strong><br/>
-                Thinking about my values, I feel pretty good about it. My values definately helps me mediate sterotype threat. Anytime I feel down, I think about my wife and how lucky I am because she's so awesome. Anyone that knows her would agree with me.</p>
+                <p><strong>How are Classes and Modules different?</strong><br/>
+                A class can be instantiated whereas a module cannot be instantiated.
+                When you create an object instance from a class, this is the process called instantiation. Like in my Stormtrooper example from last weeks post:
+
+                Stormtrooper.new
+
+                You'll get a new copy of class Stormtrooper. You can't instantiate a module, and therefore it does not have self(that sounded kinda sad, huh?! lol).
+
+                The superclass of a class is a module whereas the superclass of a module is an object. I know what you're thinking...foul! What the heck is a superclass?!
+
+                Every class in Ruby has a superclass (except for BasicObject, which doesn't have a superclass):
+
+                For the context of this blog, I don't want to go further. Just know that class's parent is module, but module is an instance of class.
+
+                Class consists of methods, constants, and variables whereas modules consists of methods, constants and classes. The difference is that methods contain classes, which in turn, can contain variables.
+
+                Classes contain class methods and instance methods whereas modules contain module methods and instance methods. Instance methods appear as methods in a class when the module is included, module methods do not. On the other hand, module methods may be called without creating an object, like Stormtrooper.fight, while instance methods may not.
+
+                Including a module into a class changes the method look up chain. So actually the class doesn't inherit any instance methods. Extending a class with a module is same as extending any object. The class simply acquires the module's methods as instance methods.
+
+                You cannot include a class into another class. Whereas modules can be included in classes and modules by using the include command. You will include all instance methods as instance methods in the class/module.
+
+                You cannot extend a class with the extend method; only with inheritance. In a module, you can extend instance by using the extend command. It extends a given instance with singleton methods from the module.
+                </p>
                 </div>
                 <hr>
             </div>
         </div>
         <div class="col-lg-12 text-center">
             <img class="img-responsive img-border img-full" src="img/saltnpepa.jpg" alt="">
-            <h2>Ridin' in my SQL-aide
+            <h2>Pairing and Giving Feedback
                 <br/>
-                <small>09.18.2014</small>
+                <small>09.06.2014</small>
             </h2>
             <div class="text-left margins">
-                <p><strong>What is SQL injection?</strong></p>
-                <p>SQL injection has nothing to do with Breaking Bad (sorry fans). SQL injection is one of the most common forms of web attack methods used by hackers to steal our prescious data from organizations...</p>
+                <p><strong>One emotion that arose during my pairing session</strong></p>
+                <p>While I am working with a partner on a pair session, I run through a gambit of emotions. The emotion that stands out above all others is excitement...</p>
                 <input type="checkbox" ng-model="checked"> I wanna read more!</p>
                 <div ng-show="checked">
-                <p>These hackers take advantage of improper coding used in web applications that allows then to inject SQL commands into your code, e.g. your login form, to gain access to the data within your databased. Since many web applications allow people to submit and retrieve data to and from a database, it's a prime target for hackers to input SQL statements to pass through and retrieve the database directly.</p>
+                <p>I'm excited to work with someone new on a project. I like to learn more about them and find a way that we can work best. I also like to find out what's their thought process about a particular problem and compare what I had in mind.<br />
+                cd .The only frustrating part is when both of us is stuck on a problem. One thing that I like to do is to "think aloud" and walk through the process. I also discovered that I like the trial and error process.</p>
 
                 <p>You can prevent your site from being hacked by SQL injection:<br/>
                    1) Prepared statements (parameterized queries): Prepared statements force the developer to first define all SQL code, and then pass each parameter to the query later. This allows the database to distinquish between code and data, regardless of what user input has supplied. Prepared statements ensures that an attacker is not able to change the intent of a query because, say an attacker entered the userID of joe' or '1'='1, the parameterized query would not be vulnerable and would look for a username which literally matched the entire string tom' or '1'='1.</p>
@@ -95,35 +119,22 @@
                 <p>Stereotype threat refers to the risk of confirming negative stereotypes about an individual's racial, ethnic, gender, or cultural group.</p>
                 <input type="checkbox" ng-model="checked"> I wanna read more!</p>
                 <div ng-show="checked">
-                    <p>When have I felt sterotype threat?<br />
-                        When I was applying for a school, I had to take an entrance exam over Skype. I did relatively well, but the instructor felt that I was almost there. He let me take another exam the following week. Unfortunately, I had to take the exam at their location. When I got there, I saw all these students working hard and I instantly felt overwhelmend and that I didn't belong there.
-                    </p>
+                    <p>They are Withdrawl (e.g. isolating oneself or running and hiding), Attack Self (e.g. self put-down or masochism), Avoidance (e.g. denial, abusing drugs/alcohol, or distraction through thrill-seeking), and Attack Other (e.g. "Turning the tables", blaming the victim, or lashing out verbally/physically). You can read more about it here.</p>
 
-                    <p>When has it affected my achievement?<br />
-                        Although I tried to push these insecurities aside, I was extremely stressed and began to sweat. When it was my turn to take the exam, I forgot everything I knew and began a spiral of sweating and hyperventiliating. Needless to say, I failed the exam miserably and walked out defeated. Of course, if someone were to ask me questions related to the exam, I could have easily answered it. Suckage!
-                    </p>
+                    <p>When I was in grade school, I had conflict with someone in the grade above me. I can't recall if there was anything specific we had conflict about. During recess, he would constantly tease me. Since I had a short temper, I would immediately become upset and shout obsenities back at him. He just laughed.</p>
 
-                    <p>What questions did I ask myself?<br />
-                       During this whole thing, I asked myself:<br />
-                        "Who am I to walk into this place? You know nothing John Snow!"<br />
-                        "You don't have a background in this, do you think you can get in?"<br />
-                        "Do you think you could really succeed?"<br />
-                        "Do you think you can be as good as the other Asian students?"
-                    </p>
-                    <p>Are there other groups that may feel it?<br />
-                    Since I do not have a technical background, there are many groups that can feel the same way. Although I'm not great at math, even other Asians can feel pressure to live up to academic standars that other races have placed on us.</p>
-                    <p>How can we help others in the same situation?<br />
-                    I think what DBC did at the beginning of the course did a lot for me. The school went out of their way to show us that although we had difference backgrounds and amount of knowledge, we are all in this journey together. Not one individual is better than the other. They established that there will be times when you will be ahead and there will be other times when you will be behind. Creating a safe environment where we can freely ask questions and say "I don't know" is a great place to start.</p>
+                    <p>Looking back at it, reacting in such a way doesn't make the situation any better. Come to think about it, he probably liked aggravating me. If I could go back, I would just ignore him. From that experience, I learned that I needed to be more patient with idiots. :P</p>
                 <hr>
                 </div>
             </div>
         <div class="col-lg-12 text-center">
             <ul class="pager">
-                <li class="previous"><a href="#/blog">&larr; Newer</a>
+                <li class="previous"><a href="#/blog2">&larr; Newer</a>
                 </li>
-                <li class="next"><a href="#/blog2">Older &rarr;</a>
+                <li class="next"><a href="#/blog3">Older &rarr;</a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
+
