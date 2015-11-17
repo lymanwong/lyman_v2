@@ -17,8 +17,8 @@
             <div class="text-left margins">
                 <p><strong>What do I need to know?</strong></p>
                 <p>Asking the right question is a good skill to have. I'm pretty wordy when it comes to writing. You guys are proabaly sarcastically saying "NO WAY!" after reading a few of my posts. Part of my learning style says that I don't like to do tasks over again so there. Ha! Anyways, going through some of the required readings, I found a few hints pretty helpful...</p>
-                <input type="checkbox" ng-model="checked"> I wanna read more!</p>
-                <div ng-show="checked">
+                <input type="checkbox" ng-model="checked1"> I wanna read more!</p>
+                <div ng-show="checked1">
 
                 <p><strong>Imagine you're trying to answer the question.</strong><br/>Imagine that you were approached with your question. The first thing you want to ask yourself the following questions: "Does this make any sense?", "Is it clear what I'm being asked?", "Can I understand the question?", "Do I need to ask any questions in order to provide an answer?". Once your question can pass the test, then your question is pretty darn good.</p>
 
@@ -75,8 +75,8 @@
             <div class="text-left margins">
                 <p><strong>What's a regular expression and a regular expression literal??</strong></p>
                 <p>A regular expression (regexp) are patters which describe the contents of a string. They help you match/find other strings (or sets of strings) or give you parts that match your search terms.</p>
-                <input type="checkbox" ng-model="checked"> I wanna read more!</p>
-                <div ng-show="checked">
+                <input type="checkbox" ng-model="checked2"> I wanna read more!</p>
+                <div ng-show="checked2">
                 <p>A regular expression literal is a pattern between slashes (/../), between arbitrary delimiters followed by %r{..}, or by using Regexp::new. For example:</p>
 
                 <p>Here 'nose' does not contain 'booger'(or does it?)<br/>
@@ -123,6 +123,7 @@
 
                 <p>I'm outta time, but there's a whole lot more you can do. Click <a href="http://ruby-doc.org/core-2.1.1/Regexp.html" target="_blank">here</a> to check it out.
                 </p>
+                </div>
                 <hr>
             </div>
         </div>
@@ -135,13 +136,14 @@
             <div class="text-left margins">
             <p><strong>My last big emotional conflict</strong></p>
                 <p>The Compass of Shame, coined by Dr. L. Nathanson, lists the four different defensive directions that we can act towards others when we're shamed.</p>
-                <input type="checkbox" ng-model="checked"> I wanna read more!</p>
-                <div ng-show="checked">
+                <input type="checkbox" ng-model="checked3"> I wanna read more!</p>
+                <div ng-show="checked3">
                     <p>They are Withdrawl (e.g. isolating oneself or running and hiding), Attack Self (e.g. self put-down or masochism), Avoidance (e.g. denial, abusing drugs/alcohol, or distraction through thrill-seeking), and Attack Other (e.g. "Turning the tables", blaming the victim, or lashing out verbally/physically). You can read more about it here.</p>
 
                     <p>When I was in grade school, I had conflict with someone in the grade above me. I can't recall if there was anything specific we had conflict about. During recess, he would constantly tease me. Since I had a short temper, I would immediately become upset and shout obsenities back at him. He just laughed.</p>
 
                     <p>Looking back at it, reacting in such a way doesn't make the situation any better. Come to think about it, he probably liked aggravating me. If I could go back, I would just ignore him. From that experience, I learned that I needed to be more patient with idiots. :P</p>
+                    </div>
                 <hr>
                 </div>
             </div>

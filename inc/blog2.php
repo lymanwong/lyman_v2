@@ -16,8 +16,8 @@
             <div class="text-left margins">
                 <p><strong>Exploring one of my values</strong></p>
                 <p>For me, excellence really stands out in my mind. This idea of excellence expands throughout my life; personal and professional. As far as personal, I want to be the best husband, friend, son, brother, cousin, etc. that I can be. Professionally, I want to be constantly improving each day. There is always something out there to learn to be a better student, employee, and co-worker. Basically, I want to be the best version of me I can be each day....</p>
-                <input type="checkbox" ng-model="checked"> I wanna read more!</p>
-                <div ng-show="checked">
+                <input type="checkbox" ng-model="checked4"> I wanna read more!</p>
+                <div ng-show="checked4">
 
                 <p><strong>What was the last topic someone asked for my advice on?</strong><br/>The last time I was asked for advice was whether or not we should increase the fee for our fantasy football league. Since the season has started, I stated that it would be unfair for those who couldn't afford the rate increase and we should postpone the hike for the following season. The league agreed with my suggestion.</p>
 
@@ -36,8 +36,8 @@
             <div class="text-left margins">
                 <p><strong>What is SQL injection?</strong></p>
                 <p>SQL injection has nothing to do with Breaking Bad (sorry fans). SQL injection is one of the most common forms of web attack methods used by hackers to steal our prescious data from organizations...</p>
-                <input type="checkbox" ng-model="checked"> I wanna read more!</p>
-                <div ng-show="checked">
+                <input type="checkbox" ng-model="checked5"> I wanna read more!</p>
+                <div ng-show="checked5">
                 <p>These hackers take advantage of improper coding used in web applications that allows then to inject SQL commands into your code, e.g. your login form, to gain access to the data within your databased. Since many web applications allow people to submit and retrieve data to and from a database, it's a prime target for hackers to input SQL statements to pass through and retrieve the database directly.</p>
 
                 <p>You can prevent your site from being hacked by SQL injection:<br/>
@@ -81,6 +81,7 @@
                 <p>9) Data Types: Use the smallest data type as possible, such as using smaller integer types to get smaller tables.</p>
                 <p>10) Primary Index: Try to make the primary column for indexing as short as possible.</p>
                 <p>11) Limit The Result: Instead of return all values, limit the amount of returns to what is needed.</p>
+                </div>
                 <hr>
             </div>
         </div>
@@ -93,8 +94,8 @@
             <div class="text-left margins">
             <p><strong>What is stereotype threat?</strong></p>
                 <p>Stereotype threat refers to the risk of confirming negative stereotypes about an individual's racial, ethnic, gender, or cultural group.</p>
-                <input type="checkbox" ng-model="checked"> I wanna read more!</p>
-                <div ng-show="checked">
+                <input type="checkbox" ng-model="checked6"> I wanna read more!</p>
+                <div ng-show="checked6">
                     <p>When have I felt sterotype threat?<br />
                         When I was applying for a school, I had to take an entrance exam over Skype. I did relatively well, but the instructor felt that I was almost there. He let me take another exam the following week. Unfortunately, I had to take the exam at their location. When I got there, I saw all these students working hard and I instantly felt overwhelmend and that I didn't belong there.
                     </p>
@@ -114,6 +115,7 @@
                     Since I do not have a technical background, there are many groups that can feel the same way. Although I'm not great at math, even other Asians can feel pressure to live up to academic standars that other races have placed on us.</p>
                     <p>How can we help others in the same situation?<br />
                     I think what DBC did at the beginning of the course did a lot for me. The school went out of their way to show us that although we had difference backgrounds and amount of knowledge, we are all in this journey together. Not one individual is better than the other. They established that there will be times when you will be ahead and there will be other times when you will be behind. Creating a safe environment where we can freely ask questions and say "I don't know" is a great place to start.</p>
+                    </div>
                 <hr>
                 </div>
             </div>

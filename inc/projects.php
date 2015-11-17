@@ -1,27 +1,43 @@
 <div class="row">
-    <div class="box">
-        <div class="col-lg-12">
+<!--     <div class="box"> -->
+<!--         <div class="col-lg-12">
             <hr>
             <h2 class="intro-text text-center">My
                 <strong>Projects</strong>
             </h2>
             <hr>
+        </div> -->
+<div class="row">
+    <div class="box">
+        <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center">Phlint
+                <!-- <strong>Family</strong> -->
+            </h2>
+            <hr>
         </div>
-        <div class="col-md-6">
-            <!-- <img class="img-responsive img-border-left" src="img/iceland.jpg" alt=""> -->
-            <a data-flickr-embed="true"  href="https://www.flickr.com/photos/lyman_wong/23094523915/" title="iceland"><img class="img-responsive img-border-left" src="https://farm1.staticflickr.com/705/23094523915_b5636e6eb0_z.jpg" width="640" height="427" alt="iceland"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+        <div class="col-sm-4 text-center">
+            <!-- <a href="http://gowo.herokuapp.com/login" target="_blank"><img class="img-responsive" src="/img/gowo.png/750x450" alt=""> -->
+            <a data-flickr-embed="true"  href="http://phlint.com/index.php#contact" title="Phlint_Footer"><img class="img-responsive" src="https://farm6.staticflickr.com/5659/23073297766_1b4ef58ea0_z.jpg" width="640" height="195" alt="footer"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <h4>Phlint page footer<br />
+                <small>Live</small></a>
+            </h4>
         </div>
-        <div class="col-md-6">
-            <p>I've been extremely bless to be married to my wonderful wife, Marcela.</p>
-
-            <p>We've traveled to Mexico, China, Iceland, France, Spain, England, Romainia to name a few. Feel free to checkout my <a href="https://www.flickr.com/photos/lyman_wong/">Flickr</a> page!</p>
-
-            <p>I'm a huge bay area sports guy and a San Francisco 49er season ticket holder. Let's go Niners!</p>
+        <div class="col-sm-4 text-center">
+            <!-- <a href="https://pictureperfectbyivon.herokuapp.com/" target="_blank"><img class="img-responsive" src="/img/pictureperfect.png/750x450" alt=""> -->
+            <a data-flickr-embed="true"  href="#" title="Phlint_Blog"><img class="img-responsive" src="https://farm6.staticflickr.com/5777/22681084267_4f39eb8a10_z.jpg" width="567" height="640" alt="p_blog"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <h4>Phlint Blog<br />
+            <small>On Staging</small></a></h4>
+        </div>
+        <div class="col-sm-4 text-center">
+            <!-- <a href="https://vrypinteresting.herokuapp.com/" target="_blank"><img class="img-responsive" src="/img/pinteresting.png/750x450" alt=""> -->
+            <a data-flickr-embed="true"  href="#" title="Phlint_Blog_Story"><img class="img-responsive" src="https://farm6.staticflickr.com/5687/23085741832_acfda56c20_z.jpg" width="640" height="601" alt="blogstory"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <h4>Phlint Story<br />
+                <small>On staging</small></a></h4>
         </div>
         <div class="clearfix"></div>
     </div>
 </div>
-
 <div class="row">
     <div class="box">
         <div class="col-lg-12">
@@ -40,7 +56,7 @@
         <div class="col-sm-4 text-center">
             <!-- <a href="https://vrypinteresting.herokuapp.com/" target="_blank"><img class="img-responsive" src="/img/pinteresting.png/750x450" alt=""> -->
             <a data-flickr-embed="true"  href="https://vrypinteresting.herokuapp.com/" target="_blank" title="pinteresting"><img class="img-responsive" src="https://farm1.staticflickr.com/709/22703246619_833aca3697_z.jpg" width="640" height="456" alt="pinteresting"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            <h4>Very Pinteresting<br />
+            <h4>Pinteresting<br />
                 <small>Rails 4.2, PostgreSQL database, and AWS</small></a></h4>
         </div>
         <div class="col-sm-4 text-center">
@@ -66,7 +82,7 @@
         </div>
         <div class="col-sm-4 text-center">
             <!-- <a href="http://www.codeskulptor.org/#user40_EVEDLHPpNfVWNMi_0.py" target="_blank"><img class="img-responsive" src="/img/stopwatch.png/750x450" alt=""> -->
-            <a data-flickr-embed="true"  href="http://www.codeskulptor.org/#user40_EVEDLHPpNfVWNMi_0.py" target="_blank" title="stopwatch"><img class="img-responsive" src="https://farm1.staticflickr.com/729/22472735904_b63b2bba74_z.jpg" width="640" height="410" alt="stopwatch"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <a data-flickr-embed="true"  href="http://www.codeskulptor.org/#user40_EVEDLHPpNfVWNMi_0.py" title="stopwatch"><img class="img-responsive" src="https://farm1.staticflickr.com/729/22472735904_6b6d740e33_z.jpg" width="640" height="378" alt="stopwatch"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
             <h4>Stopwatch</h4></a>
         </div>
         <div class="col-sm-4 text-center">
