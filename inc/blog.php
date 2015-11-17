@@ -9,7 +9,7 @@
             <hr>
         </div>
         <div class="col-lg-12 text-center">
-            <img class="img-responsive img-border img-full" src="img/bueller.jpg" alt="">
+            <img class="img-responsive img-border img-full" src="http://i.imgur.com/xwgD69T.gif" alt="">
             <h2>How do I ask the right kinds of questions? Bueller? Bueller?
                 <br>
                 <small>09.30.2014</small>
@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="col-lg-12 text-center">
-            <img class="img-responsive img-border img-full" src="img/saltnpepa.jpg" alt="">
+            <img class="img-responsive img-border img-full" src="http://static.ebony.com/8-SaltPepa_gallery-image_43768.jpg" alt="">
             <h2>Express Yourself (in Ruby)
                 <br/>
                 <small>09.29.2014</small>
@@ -127,7 +127,7 @@
             </div>
         </div>
         <div class="col-lg-12 text-center">
-            <img class="img-responsive img-border img-full" src="img/compass.jpg" alt="">
+            <img class="img-responsive img-border img-full" src="http://www.androidcentral.com/sites/androidcentral.com/files/styles/w550h500/public/wallpapers/map-and-compass-czk.jpg?itok=Ggtc46cE" alt="">
             <h2>Spin the Compass of Shame
                 <br>
                 <small>09.29.2014</small>
