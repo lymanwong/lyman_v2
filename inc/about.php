@@ -8,7 +8,8 @@
             <hr>
         </div>
         <div class="col-md-6">
-            <img class="img-responsive img-border-left" src="img/iceland.jpg" alt="">
+            <a data-flickr-embed="true"  href="https://www.flickr.com/photos/lyman_wong/23094523915/in/datetaken/" title="iceland"><img class="img-responsive" src="https://farm1.staticflickr.com/705/23094523915_b5636e6eb0_b.jpg" width="960" height="640" alt="iceland"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <!-- <img class="img-responsive img-border-left" src="img/iceland.jpg" alt=""> -->
         </div>
         <div class="col-md-6">
             <p>I've been extremely bless to be married to my wonderful wife, Marcela.</p>

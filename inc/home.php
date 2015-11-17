@@ -18,9 +18,11 @@
                             </div>
                             <div class="item">
                                 <img class="img-responsive img-full" src="img/lucha.jpg" alt="">
+
                             </div>
                             <div class="item">
                                 <img class="img-responsive img-full" src="img/muppets.jpg" alt="">
+
                             </div>
                         </div>
 
@@ -50,7 +52,8 @@
                         <strong>about me</strong>
                     </h2>
                     <hr>
-                    <img class="img-responsive img-border img-left about_pics" src="img/lyman_headshot.jpg" alt="">
+                    <!-- <img class="img-responsive img-border img-left about_pics" src="img/lyman_headshot.jpg" alt=""> -->
+                    <a data-flickr-embed="true"  href="https://www.flickr.com/photos/lyman_wong/22473266173/" title="lyman_headshot"><img class="img-responsive img-border img-left about_pics" src="https://farm6.staticflickr.com/5759/22473266173_61bee79b90_z.jpg" width="467" height="600" alt="lyman_headshot"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
                     <hr class="visible-xs">
                     <p>I'm a native San Franciscan and have a passion for web development, community management, gaming, sports and fitness.  I’m a life-long learner who's looking to join a team where I can integrate my past experiences to learn, grow, make great things, and have some fun along the way.</p>
 
