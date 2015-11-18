@@ -30,7 +30,7 @@
 
 </head>
 <div class="brand">Lyman Wong</div>
-<div class="address-bar">1942 36th Avenue | San Francisco, CA 94116 | 415.509.1409<br/></div>
+<div class="address-bar">lymanwong@gmail.com | San Francisco, CA | 415.000.0000<br/></div>
 
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
