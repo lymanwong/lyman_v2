@@ -19,8 +19,7 @@
                 <strong><a href="mailto:lymanwong@gmail.com">lymanwong@gmail.com</a></strong>
             </p>
             <p>Address:
-                <strong>1942 36th Avenue
-                    <br>San Francisco, CA 94116</strong>
+                <strong>San Francisco, CA</strong>
             </p>
         </div>
         <div class="clearfix"></div>
