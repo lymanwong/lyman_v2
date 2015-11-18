@@ -17,8 +17,10 @@
             <div class="text-left margins">
                 <p><strong>What do I need to know?</strong></p>
                 <p>Asking the right question is a good skill to have. I'm pretty wordy when it comes to writing. You guys are proabaly sarcastically saying "NO WAY!" after reading a few of my posts. Part of my learning style says that I don't like to do tasks over again so there. Ha! Anyways, going through some of the required readings, I found a few hints pretty helpful...</p>
-                <input type="checkbox" ng-model="checked1"> I wanna read more!</p>
-                <div ng-show="checked1">
+<!--                 <input type="checkbox" ng-model="checked1"> I wanna read more!</p>
+                <div ng-show="checked1"> -->
+                <button ng-click="show = !show">Read More</button>
+                <div ng-show="show" class="fade-in-out">
 
                 <p><strong>Imagine you're trying to answer the question.</strong><br/>Imagine that you were approached with your question. The first thing you want to ask yourself the following questions: "Does this make any sense?", "Is it clear what I'm being asked?", "Can I understand the question?", "Do I need to ask any questions in order to provide an answer?". Once your question can pass the test, then your question is pretty darn good.</p>
 

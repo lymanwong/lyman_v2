@@ -214,3 +214,13 @@ footer p {
     margin-left: 30px;
     margin-right: 30px;
 }
+
+
+.fade-in-out {
+  transition: 1s linear all;
+  opacity: 1;
+}
+
+.fade-in-out.ng-hide {
+  opacity: 0;
+}
