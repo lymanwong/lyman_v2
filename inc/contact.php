@@ -13,7 +13,7 @@
         </div>
         <div class="col-md-4">
             <p>Phone:
-                <strong>415.000.0000</strong>
+                <strong>415.367.4709</strong>
             </p>
             <p>Email:
                 <strong><a href="mailto:lymanwong@gmail.com">lymanwong@gmail.com</a></strong>
