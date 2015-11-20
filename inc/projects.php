@@ -20,20 +20,20 @@
             <!-- <a href="http://gowo.herokuapp.com/login" target="_blank"><img class="img-responsive" src="/img/gowo.png/750x450" alt=""> -->
             <a data-flickr-embed="true"  href="http://phlint.com/index.php#contact" title="Phlint_Footer"><img class="img-responsive" src="https://farm6.staticflickr.com/5659/23073297766_1b4ef58ea0_z.jpg" width="640" height="195" alt="footer"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
             <h4>Phlint page footer<br />
-                <small>Live</small></a>
+                <small>Live - PHP, HTML, AND CSS</small></a>
             </h4>
         </div>
         <div class="col-sm-4 text-center">
             <!-- <a href="https://pictureperfectbyivon.herokuapp.com/" target="_blank"><img class="img-responsive" src="/img/pictureperfect.png/750x450" alt=""> -->
             <a data-flickr-embed="true"  href="https://www.flickr.com/photos/lyman_wong/22681084267/in/dateposted-public/" target="_blank" title="Phlint_Blog"><img class="img-responsive" src="https://farm6.staticflickr.com/5777/22681084267_4f39eb8a10_z.jpg" width="567" height="640" alt="p_blog"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
             <h4>Phlint Blog<br />
-            <small>On Staging</small></a></h4>
+            <small>Staging - PHP, HTML, AND CSS</small></a></h4>
         </div>
         <div class="col-sm-4 text-center">
             <!-- <a href="https://vrypinteresting.herokuapp.com/" target="_blank"><img class="img-responsive" src="/img/pinteresting.png/750x450" alt=""> -->
             <a data-flickr-embed="true"  href="https://www.flickr.com/photos/lyman_wong/23085741832/in/dateposted-public/" title="Phlint_Blog_Story"><img class="img-responsive" src="https://farm6.staticflickr.com/5687/23085741832_acfda56c20_z.jpg" width="640" height="601" alt="blogstory"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
             <h4>Phlint Story<br />
-                <small>On staging</small></a></h4>
+                <small>On staging - PHP, HTML, AND CSS</small></a></h4>
         </div>
         <div class="clearfix"></div>
     </div>

@@ -23,6 +23,7 @@
 //   };
 // };
 
+
 var app = angular.module('myApp',['ngRoute']);
 
 app.config(function($routeProvider) {
@@ -69,29 +70,29 @@ angular.module('ngToggle', [])
 }]);
 
 app.controller('HomeController', function($scope){
-
+  $scope.pageClass = 'home';
 });
 
 app.controller('AboutController', function($scope){
-
+  $scope.pageClass = 'about';
 });
 
 app.controller('BlogController', function($scope){
-
+  $scope.pageClass = 'blog';
 });
 
 app.controller('Blog2Controller', function($scope){
-
+  $scope.pageClass = 'blog2';
 });
 
 app.controller('Blog3Controller', function($scope){
-
+  $scope.pageClass = 'blog3';
 });
 
 app.controller('ContactController', function($scope){
-
+  $scope.pageClass = 'contact';
 });
 
 app.controller('ProjectsController', function($scope){
-
+  $scope.pageClass = 'projects';
 });

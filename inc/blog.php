@@ -77,8 +77,13 @@
             <div class="text-left margins">
                 <p><strong>What's a regular expression and a regular expression literal??</strong></p>
                 <p>A regular expression (regexp) are patters which describe the contents of a string. They help you match/find other strings (or sets of strings) or give you parts that match your search terms.</p>
-                <input type="checkbox" ng-model="checked2"> I wanna read more!</p>
-                <div ng-show="checked2">
+
+<!--                 <input type="checkbox" ng-model="checked2"> I wanna read more!</p>
+                <div ng-show="checked2"> -->
+
+                <button ng-click="show2 = !show2">Read More</button>
+                <div ng-show="show2" class="fade-in-out">
+
                 <p>A regular expression literal is a pattern between slashes (/../), between arbitrary delimiters followed by %r{..}, or by using Regexp::new. For example:</p>
 
                 <p>Here 'nose' does not contain 'booger'(or does it?)<br/>
@@ -138,8 +143,13 @@
             <div class="text-left margins">
             <p><strong>My last big emotional conflict</strong></p>
                 <p>The Compass of Shame, coined by Dr. L. Nathanson, lists the four different defensive directions that we can act towards others when we're shamed.</p>
-                <input type="checkbox" ng-model="checked3"> I wanna read more!</p>
-                <div ng-show="checked3">
+
+<!--                 <input type="checkbox" ng-model="checked3"> I wanna read more!</p>
+                <div ng-show="checked3"> -->
+
+                <button ng-click="show3 = !show3">Read More</button>
+                <div ng-show="show3" class="fade-in-out">
+
                     <p>They are Withdrawl (e.g. isolating oneself or running and hiding), Attack Self (e.g. self put-down or masochism), Avoidance (e.g. denial, abusing drugs/alcohol, or distraction through thrill-seeking), and Attack Other (e.g. "Turning the tables", blaming the victim, or lashing out verbally/physically). You can read more about it here.</p>
 
                     <p>When I was in grade school, I had conflict with someone in the grade above me. I can't recall if there was anything specific we had conflict about. During recess, he would constantly tease me. Since I had a short temper, I would immediately become upset and shout obsenities back at him. He just laughed.</p>

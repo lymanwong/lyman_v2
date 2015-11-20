@@ -16,8 +16,11 @@
             <div class="text-left margins">
                 <p><strong>Exploring one of my values</strong></p>
                 <p>For me, excellence really stands out in my mind. This idea of excellence expands throughout my life; personal and professional. As far as personal, I want to be the best husband, friend, son, brother, cousin, etc. that I can be. Professionally, I want to be constantly improving each day. There is always something out there to learn to be a better student, employee, and co-worker. Basically, I want to be the best version of me I can be each day....</p>
-                <input type="checkbox" ng-model="checked4"> I wanna read more!</p>
-                <div ng-show="checked4">
+<!--                 <input type="checkbox" ng-model="checked4"> I wanna read more!</p>
+                <div ng-show="checked4"> -->
+
+                <button ng-click="show4 = !show4">Read More</button>
+                <div ng-show="show4" class="fade-in-out">
 
                 <p><strong>What was the last topic someone asked for my advice on?</strong><br/>The last time I was asked for advice was whether or not we should increase the fee for our fantasy football league. Since the season has started, I stated that it would be unfair for those who couldn't afford the rate increase and we should postpone the hike for the following season. The league agreed with my suggestion.</p>
 
@@ -36,8 +39,10 @@
             <div class="text-left margins">
                 <p><strong>What is SQL injection?</strong></p>
                 <p>SQL injection has nothing to do with Breaking Bad (sorry fans). SQL injection is one of the most common forms of web attack methods used by hackers to steal our prescious data from organizations...</p>
-                <input type="checkbox" ng-model="checked5"> I wanna read more!</p>
-                <div ng-show="checked5">
+                <!-- <input type="checkbox" ng-model="checked5"> I wanna read more!</p>
+                <div ng-show="checked5"> -->
+                <button ng-click="show5 = !show5">Read More</button>
+                <div ng-show="show5" class="fade-in-out">
                 <p>These hackers take advantage of improper coding used in web applications that allows then to inject SQL commands into your code, e.g. your login form, to gain access to the data within your databased. Since many web applications allow people to submit and retrieve data to and from a database, it's a prime target for hackers to input SQL statements to pass through and retrieve the database directly.</p>
 
                 <p>You can prevent your site from being hacked by SQL injection:<br/>
@@ -94,8 +99,10 @@
             <div class="text-left margins">
             <p><strong>What is stereotype threat?</strong></p>
                 <p>Stereotype threat refers to the risk of confirming negative stereotypes about an individual's racial, ethnic, gender, or cultural group.</p>
-                <input type="checkbox" ng-model="checked6"> I wanna read more!</p>
-                <div ng-show="checked6">
+                <!-- <input type="checkbox" ng-model="checked6"> I wanna read more!</p>
+                <div ng-show="checked6"> -->
+                <button ng-click="show6 = !show6">Read More</button>
+                <div ng-show="show6" class="fade-in-out">
                     <p>When have I felt sterotype threat?<br />
                         When I was applying for a school, I had to take an entrance exam over Skype. I did relatively well, but the instructor felt that I was almost there. He let me take another exam the following week. Unfortunately, I had to take the exam at their location. When I got there, I saw all these students working hard and I instantly felt overwhelmend and that I didn't belong there.
                     </p>

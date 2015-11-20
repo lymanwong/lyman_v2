@@ -16,9 +16,10 @@
             <div class="text-left margins">
                 <p><strong>What is a Class?</strong></p>
                 <p>A class is a factory for objects (note the plural). If you don't want to create multiple instances of the class, there is no need for it to exist. If you would like more information about classes, click here and you'll be directed to last week's post.</p>
-                <input type="checkbox" ng-model="checked7"> I wanna read more!</p>
-                <div ng-show="checked7">
-
+                <!-- <input type="checkbox" ng-model="checked7"> I wanna read more!</p>
+                <div ng-show="checked7"> -->
+                <button ng-click="show7 = !show7">Read More</button>
+                <div ng-show="show7" class="fade-in-out">
                 <p><strong>What is a module?</strong><br/>
                 A module is collection of methods and constants. Modules are a way of grouping together some functions and variables and classes, somewhat like classes, but more like namespaces. A namespace is a bully-free zone where your methods and constants can play together without having other methods and constants messing with them.</p>
 
@@ -63,8 +64,10 @@
             </h2>
             <div class="text-left margins">
                 <p>One of the major problems facing the tech industry is employee burnout and work-life balance. ...</p>
-                <input type="checkbox" ng-model="checked8"> I wanna read more!</p>
-                <div ng-show="checked8">
+                <!-- <input type="checkbox" ng-model="checked8"> I wanna read more!</p>
+                <div ng-show="checked8"> -->
+                <button ng-click="show8 = !show8">Read More</button>
+                <div ng-show="show8" class="fade-in-out">
                 <p>I mean, I understand that getting your product out provides companies with a competitive advantage and stretches out potential revenue, but at what cost?<br /><br />
 
                 I use to work for a company that required me to work 7 days a week.  During the weekdays, I would work 12-14 hours and during the weekend, I would work 4-6 hours.  Although I worked hourly, I would have loved to just spend some down time and relax.  The main problem was planning.  The product managers did not plan far enough ahead in order to get the work started.  First they would need to write a single page spec document and have it approved by their manager.  Then they would have scope meetings to talk about the feature with the developers.  Then the product managers would then need to write a full spec document and have more meetings to discuss the feature flow, resources, and get final approval.  Once the feature and art has been completed, the feature reaches QA to test.  With their approval, the final product reaches prodcution.  If not, the developers would go back and fix their code.</p></br>
@@ -92,8 +95,10 @@
             <div class="text-left margins">
             <p><b>What's an <a href="http://ruby-doc.org/core-2.1.2/Enumerable.html" target="_blank">Enumerable</a> Module?</b></p>
                 <p>An Enumerable Module is just a collection of functions that "does stuff" to a collection of values like arrays or hashes...</p>
-                <input type="checkbox" ng-model="checked9"> I wanna read more!</p>
-                <div ng-show="checked9">
+                <!-- <input type="checkbox" ng-model="checked9"> I wanna read more!</p>
+                <div ng-show="checked9"> -->
+                <button ng-click="show9 = !show9">Read More</button>
+                <div ng-show="show9" class="fade-in-out">
                     <p>(calm down, I'm still talking about Ruby and not botany).  Depending on which function you are going to use on your collection, you will have different results. For example, there are functions that would allow you to search, sort, change your collections, and more.  It's also a streamlined  way to write loops (like you can write a 100 line poem describing how the blue sky touches the deepest parts of your soul or you can say "the blue sky looks awesome today". Both will convey the same message, but latter is less wordy. <a href="https://www.youtube.com/watch?v=bFEoMO0pc7k" target="_blank">Ain't nobody got time for that!</a>). Phew, that's a bunch of tech talk. BREAK TIME!</p>
 
                     <p class="text-center"><iframe width="425" height="250" src="http://www.youtube.com/embed/Z2guxhefWrQ" frameborder="0" allowfullscreen></iframe></p>

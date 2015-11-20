@@ -26,7 +26,7 @@
     </div>
 </div>
 
-<div class="row">
+<!-- <div class="row">
     <div class="box">
         <div class="col-lg-12">
             <hr>
@@ -65,5 +65,5 @@
             </form>
         </div>
     </div>
-</div>
+</div> -->
 
