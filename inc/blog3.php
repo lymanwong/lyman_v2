@@ -52,10 +52,12 @@
 
                 <p>You cannot extend a class with the extend method; only with inheritance. In a module, you can extend instance by using the extend command. It extends a given instance with singleton methods from the module.
                 </p>
+                <button ng-click="show7 = !show7">Hide</button>
+                <div ng-show="show7" class="fade-in-out">
                 </div>
-                <hr>
             </div>
         </div>
+        <hr>
         <div class="col-lg-12 text-center">
             <img class="img-responsive img-border img-full" src="https://developer.atlassian.com/blog/2015/05/try-pair-programming/images/how-long.jpg" alt="">
             <h2>Work smarter, not harder
@@ -82,10 +84,13 @@
                     The studio managment started with providing a weekly survey that everyone had to fill out.  This survey was anonamous and was used as a temperature check.  We would indicate how we felt about our workload and stress level.  From there, management would adjust accordingly.  The leadership also started work on approved features earlier and made realistic timelines in order to mitigate employee burnout.  Product managers were held accountable for not providing spec docs in a timely fashion.  Features were getting finished earlier so QA doesn't have to stay past normal office hours in order to completely test a feature.  The studio stopped end-of-the-day, late night, and weekend releases unless absolutely necessary (low revenue).  This helped the entire studio relax a bit and not play "catch-up" every day.  It also helped flatten out revenue spikes (due to feature releases) and provided a more linear and predictable revenue projection.</br></br>
 
                     The funny thing is that many of the studios functioned in the same way.  With the high revenue demand, there was constant pressure from leadership to keep our numbers high at the expense of their employees.  If many of the startups out there shared this experience, employees will have a better work-life balance and feel less burned out.  I understand small companies want to do things on their own and independent of the big companies, but when it comes to best practices, why not be open to your predecessors and learn from their mistakes?</p>
+                    <button ng-click="show8 = !show8">Hide</button>
+                    <div ng-show="show8" class="fade-in-out">
                     </div>
-                <hr>
+
             </div>
         </div>
+        <hr>
         <div class="col-lg-12 text-center">
             <iframe src="https://www.facebook.com/video/embed?video_id=731353396909065" width="425"  height="250"  frameborder="0"></iframe></p>
             <h2>Ruby Jibber Jabber
@@ -161,6 +166,8 @@
                         You'll get:  "Catcher", "First_base"</br></br>
 
                         So basically, hashes store data like arrays, but hashes points an object to another object.  You can think of it as assigning a certain "meaning" to a string.  Each time you refer to that string, it refers to it's "meaning".</p>
+                        <button ng-click="show9 = !show9">Hide More</button>
+                        <div ng-show="show9" class="fade-in-out">
                     </div>
                 <hr>
                 </div>

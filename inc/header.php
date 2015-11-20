@@ -30,7 +30,7 @@
 
 </head>
 <div class="brand">Lyman Wong</div>
-<div class="address-bar">lymanwong@gmail.com | San Francisco, CA | 415.367.4709<br/></div>
+<div class="address-bar"><a href="mailto:lymanwong@gmail.com">lymanwong@gmail.com</a> | San Francisco, CA | 415.367.4709<br/></div>
 
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">

@@ -26,10 +26,12 @@
 
                 <p><strong>Values and stereotype threat</strong><br/>
                 Thinking about my values, I feel pretty good about it. My values definately helps me mediate sterotype threat. Anytime I feel down, I think about my wife and how lucky I am because she's so awesome. Anyone that knows her would agree with me.</p>
+                <button ng-click="show4 = !show4">Hide</button>
+                <div ng-show="show4" class="fade-in-out">
                 </div>
-                <hr>
             </div>
         </div>
+        <hr>
         <div class="col-lg-12 text-center">
             <iframe width="420" height="315" src="https://www.youtube.com/embed/MBvVocNTF34" frameborder="0" allowfullscreen></iframe>
             <h2>Ridin' in my SQL-aide
@@ -87,9 +89,10 @@
                 <p>10) Primary Index: Try to make the primary column for indexing as short as possible.</p>
                 <p>11) Limit The Result: Instead of return all values, limit the amount of returns to what is needed.</p>
                 </div>
-                <hr>
+
             </div>
         </div>
+        <hr>
         <div class="col-lg-12 text-center">
             <iframe width="420" height="315" src="https://www.youtube.com/embed/VP0I-3yRTts" frameborder="0" allowfullscreen></iframe>
             <h2>Stereotype Threat
@@ -122,6 +125,8 @@
                     Since I do not have a technical background, there are many groups that can feel the same way. Although I'm not great at math, even other Asians can feel pressure to live up to academic standars that other races have placed on us.</p>
                     <p>How can we help others in the same situation?<br />
                     I think what DBC did at the beginning of the course did a lot for me. The school went out of their way to show us that although we had difference backgrounds and amount of knowledge, we are all in this journey together. Not one individual is better than the other. They established that there will be times when you will be ahead and there will be other times when you will be behind. Creating a safe environment where we can freely ask questions and say "I don't know" is a great place to start.</p>
+                    <button ng-click="show6 = !show6">Hide</button>
+                    <div ng-show="show6" class="fade-in-out">
                     </div>
                 <hr>
                 </div>

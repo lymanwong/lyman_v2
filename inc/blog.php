@@ -64,10 +64,12 @@
                 The user did not use a good title. It was vague and didn't summarize the issue. Maybe they should have used "How to make video files local in iOS app"?<br/>
                 They really didn't attempt to tell anyone how they would prefer one option over the other.<br/>
                 They didn't describe their setup such as OS.</p>
+                <button ng-click="show = !show">Hide</button>
+                <div ng-show="show" class="fade-in-out">
                 </div>
-                <hr>
             </div>
         </div>
+        <hr>
         <div class="col-lg-12 text-center">
             <img class="img-responsive img-border img-full" src="http://static.ebony.com/8-SaltPepa_gallery-image_43768.jpg" alt="">
             <h2>Express Yourself (in Ruby)
@@ -130,10 +132,12 @@
 
                 <p>I'm outta time, but there's a whole lot more you can do. Click <a href="http://ruby-doc.org/core-2.1.1/Regexp.html" target="_blank">here</a> to check it out.
                 </p>
+                <button ng-click="show2 = !show2">Hide</button>
+                <div ng-show="show2" class="fade-in-out">
                 </div>
-                <hr>
             </div>
         </div>
+        <hr>
         <div class="col-lg-12 text-center">
             <img class="img-responsive img-border img-full" src="http://www.androidcentral.com/sites/androidcentral.com/files/styles/w550h500/public/wallpapers/map-and-compass-czk.jpg?itok=Ggtc46cE" alt="">
             <h2>Spin the Compass of Shame
@@ -155,6 +159,8 @@
                     <p>When I was in grade school, I had conflict with someone in the grade above me. I can't recall if there was anything specific we had conflict about. During recess, he would constantly tease me. Since I had a short temper, I would immediately become upset and shout obsenities back at him. He just laughed.</p>
 
                     <p>Looking back at it, reacting in such a way doesn't make the situation any better. Come to think about it, he probably liked aggravating me. If I could go back, I would just ignore him. From that experience, I learned that I needed to be more patient with idiots. :P</p>
+                    <button ng-click="show3 = !show3">Hide</button>
+                    <div ng-show="show3" class="fade-in-out">
                     </div>
                 <hr>
                 </div>

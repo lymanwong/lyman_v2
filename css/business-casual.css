@@ -41,6 +41,15 @@ hr {
     display: none;
 }
 
+.address-bar a{
+    color:white;
+    text-decoration: none;
+}
+
+.address-bar a:hover{
+    color:#3498db;
+}
+
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
