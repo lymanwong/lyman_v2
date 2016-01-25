@@ -13,7 +13,8 @@
 
     <!-- Custom CSS -->
     <link href="css/business-casual.css" rel="stylesheet">
-
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -37,5 +38,9 @@
         interval: 5000 //changes the speed
     })
     </script>
+
+    <!-- Scripts
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 </head>

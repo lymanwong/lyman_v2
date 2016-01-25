@@ -53,7 +53,7 @@
                     </h2>
                     <hr>
                     <!-- <img class="img-responsive img-border img-left about_pics" src="img/lyman_headshot.jpg" alt=""> -->
-                    <a data-flickr-embed="true"  href="https://www.flickr.com/photos/lyman_wong/22473266173/" title="lyman_headshot"><img class="img-responsive img-border img-left about_pics" src="https://farm6.staticflickr.com/5759/22473266173_61bee79b90_z.jpg" width="467" height="600" alt="lyman_headshot"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                    <a class="image-link" href="img/lyman_headshot.jpg" title="lyman_headshot"><img class="img-responsive img-border img-left about_pics" src="img/lyman_headshot.jpg" width="467" height="600" alt="lyman_headshot"></a>
                     <hr class="visible-xs">
                     <p>I'm a native San Franciscan and have a passion for web development, community management, gaming, sports and fitness.  I’m a life-long learner who's looking to join a team where I can integrate my past experiences to learn, grow, make great things, and have some fun along the way.</p>
 
@@ -87,3 +87,28 @@
 <!--     </div> -->
     <!-- /.container -->
     <!-- END OF THE MAIN CONTENT -->
+<script src="js/magnific-popup.js"></script>
+    <script type="text/javascript">
+      // Initialize popup as usual
+      $('.image-link').magnificPopup({
+        type: 'image',
+        mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+        zoom: {
+          enabled: true, // By default it's false, so don't forget to enable it
+
+          duration: 300, // duration of the effect, in milliseconds
+          easing: 'ease-in-out', // CSS transition easing function
+
+          // The "opener" function should return the element from which popup will be zoomed in
+          // and to which popup will be scaled down
+          // By defailt it looks for an image tag:
+          opener: function(openerElement) {
+            // openerElement is the element on which popup was initialized, in this case its <a> tag
+            // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+            return openerElement.is('img') ? openerElement : openerElement.find('img');
+          }
+        }
+
+      });
+    </script>
