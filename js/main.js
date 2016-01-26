@@ -23,8 +23,39 @@
 //   };
 // };
 $(document).ready(function(){
-  $(".brand").addClass('animated bounceInDown');
-  $()
+  $(".brand").addClass("animated zoomInDown");
+  $(".name").addClass("animated slideInLeft");
+  $(".number").addClass("animated slideInRight");
+  $('.home').mouseenter(function(){
+    $('.home').html(" { Home } ");
+  })
+  $('.home').mouseleave(function(){
+    $('.home').html("  Home  ");
+  })
+  $('.about').mouseenter(function(){
+    $('.about').html(" { About }");
+  })
+  $('.about').mouseleave(function(){
+    $('.about').html("  About  ");
+  })
+  $('.projects').mouseenter(function(){
+    $('.projects').html("{ projects }");
+  })
+  $('.projects').mouseleave(function(){
+    $('.projects').html("  Projects  ");
+  })
+  $('.blog').mouseenter(function(){
+    $('.blog').html(" { blog } ");
+  })
+  $('.blog').mouseleave(function(){
+    $('.blog').html("  Blog  ");
+  })
+  $('.contact').mouseenter(function(){
+    $('.contact').html(" { contact } ");
+  })
+  $('.contact').mouseleave(function(){
+    $('.contact').html("  Contact  ");
+  })
 });
 
 
