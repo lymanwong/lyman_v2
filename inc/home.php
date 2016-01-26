@@ -14,14 +14,14 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img class="img-responsive img-full" src="img/just_us.jpg" alt="">
+                                <a class="image-link" href="img/just_us.jpg"><img class="img-responsive img-full" src="img/just_us.jpg" alt=""></a>
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/lucha.jpg" alt="">
+                                <a class="image-link" href="img/lucha.jpg"><img class="img-responsive img-full" src="img/lucha.jpg" alt=""></a>
 
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/muppets.jpg" alt="">
+                                <a class="image-link" href="img/muppets.jpg"><img class="img-responsive img-full" src="img/muppets.jpg" alt=""></a>
 
                             </div>
                         </div>

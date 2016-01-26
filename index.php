@@ -27,6 +27,5 @@
     <script src="js/angular-route.min.js"></script>
     <!-- MY JS FILE -->
     <script type="text/javascript" src="js/main.js"></script>
-
 </body>
 </html>

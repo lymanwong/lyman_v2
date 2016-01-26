@@ -22,6 +22,10 @@
 //     };
 //   };
 // };
+$(document).ready(function(){
+  $(".brand").addClass('animated bounceInDown');
+  $()
+});
 
 
 var app = angular.module('myApp',['ngRoute']);
